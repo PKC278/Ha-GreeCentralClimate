@@ -112,7 +112,7 @@ class Gree2Climate(ClimateEntity):
     @property
     def current_temperature(self):
         # Return the current temperature.
-        return self._current_temperature
+        return self._target_temperature
 
     @property
     def target_temperature(self):
